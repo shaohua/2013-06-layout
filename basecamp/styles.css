@@ -1,3 +1,150 @@
-body{
-  /* rules go here */
+body {
+  font-family: "ProximaNova", "Helvetica Neue", helvetica, arial, sans-serif;
 }
+
+.header {
+  border-bottom: 1px solid #d4cdc1;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.nav {
+  float: right;
+  list-style-type: none;
+}
+
+.nav li {
+  float: left;
+  margin-right: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.1em;
+}
+
+.nav li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #06c;
+  text-align: center;
+  line-height: 1.1em;
+}
+
+.logo {
+  float: left;
+}
+
+.nav .signIn a{
+  font-weight: normal;
+  color: #fff;
+  background-color: #06C;
+  padding: 8px 14px 9px 14px;
+  margin: 0 0 0 10px;
+}
+
+.main h1 {
+  font-size: 46px;
+  letter-spacing: -1px;
+  text-align: center;
+  padding-bottom: 40px;
+  line-height: 1.1em;
+  font-weight: bold;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+
+}
+
+.drawing {
+  width: 964px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
+  background: url("http://basecamp.com/assets/images/home-sign-up/signup-drawing2.png") no-repeat;
+  margin-top: -40px;
+  border-bottom: 1px solid #d4cdc1;
+}
+
+.aside {
+  float: left;
+  width: 170px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.joy {
+  float: left;
+  margin: 70px 0 0 175px;
+  width: 393px;
+  height: 490px;
+  background: url("http://basecamp.com/assets/images/home-sign-up/joy.png") 25px 25px no-repeat;
+  background-size: 375px 465px;
+}
+
+.testimonial {
+  font-size: 16px;
+  line-height: 20px;
+  margin: -5px 0 0 -16px;
+  text-align: center;
+}
+
+.signup {
+  border: 0;
+  padding: 65px 50px 0 600px;
+  margin-left: 10px;
+  background: transparent;
+  text-align: center;
+}
+
+.signup h2 {
+  font-size: 28px;
+  color: #c00;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+
+.signup h3 {
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.signup p {
+  margin: 0 30px;
+  font-weight: normal;
+  font-size: small;
+}
+
+.signup input {
+  font-size: 18px;
+  border: 1px solid #CCC;
+  border-top: 1px solid #999;
+  border-radius: 3px;
+  display: block;
+  height: 25px;
+  margin: 0 auto 15px;
+  padding: 5px;
+  width: 300px;
+}
+
+label.input span {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -140px;
+  font-size: 18px;
+  color: #a9a9a9;
+  z-index: 1;
+  cursor: text;
+  text-align: left;
+}
+
