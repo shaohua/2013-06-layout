@@ -1,3 +1,21 @@
 body {
   /* rules go here */
 }
+.top_bar {
+  background-color: #222;
+  color: #bbb;
+  font-family:arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.top_bar span {
+  padding-left: 16px;
+}
